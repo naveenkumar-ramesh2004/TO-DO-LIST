@@ -1,0 +1,132 @@
+*{
+    margin: 0%;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Poppins", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+header{
+    background-color: #FD6569;
+    padding: 10px 20px;
+    
+}
+main{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    margin-top: 30px;
+    flex-wrap: wrap;
+}
+main div {
+    background-color: black;
+    color: white;
+    width: 160px;
+    height:145px ;
+    text-align: center;
+    padding-top: 15px;
+    border-radius: 30px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    
+    
+}
+main div h2{
+    color:#FD6569;
+    padding-bottom: 3px;
+}
+main div h2{
+    padding-bottom: 3px;
+}
+main div button{
+    background-color: #FD6569;
+    color: #000;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border: none;
+    margin-top: 6px;
+    cursor: pointer;
+    outline: none;
+}
+footer button{
+    background-color: #FD6569;
+    color: #000;
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    border: none;
+    font-size: 30px;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    cursor: pointer;
+    z-index: 1;
+   
+}
+aside{
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    opacity: 0.9;
+    z-index: 2; 
+    display: none;
+
+}
+aside div{
+    background-color: #FD6569;
+    border-radius: 30px;
+    width: 500px;
+    height: 250px;
+    position: absolute;
+    top: 23%;
+    left: 30%;
+    padding-left: 60px;
+    padding-top: 50px;
+    z-index: 4;
+    display: none;
+}
+@media (max-width:700px) {
+    aside div{
+        width: 300px;
+        height: 250px;
+        left:14%
+    }
+   
+    
+}
+aside div h2{
+    color: #000;
+   
+}
+#whats,#whens{
+    background-color: transparent;
+    border: none;
+    border-bottom: solid black 3px;
+    margin: 5px;
+    padding: 5px;
+    width: 90%;
+    outline: none;
+}
+#whats::placeholder{
+    color: #000;
+}
+#whens::placeholder{
+    color: #000;
+}
+aside div button{
+    background-color: #000;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+    border-radius: 15px;
+    cursor: pointer;
+    margin-top: 13px;
+}
